@@ -67,7 +67,7 @@ class TaskProgressLabel extends JLabel{
         g.setColor(Color.LIGHT_GRAY);
         g.drawRect(1, 1, width, height - 2);
         
-        setText(val + "%");
+        setText(val + "Percent");
         setBounds(0, 0, width, height);
         
         super.paintComponent(g);
